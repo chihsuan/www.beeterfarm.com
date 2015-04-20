@@ -683,7 +683,6 @@ body {
 
 ul.social-buttons {
     position: relative;
-    top: -15px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -699,6 +698,8 @@ ul.social-buttons li a {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
+    background: #34A040;
+    color: white;
 }
 .our-plan {
     width: 75%;
