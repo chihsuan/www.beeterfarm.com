@@ -196,7 +196,7 @@ aside {
 
 .timeline>li .timeline-image h4 {
     margin-top: 12px;
-    font-size: 10px;
+    font-size: 8px;
     line-height: 14px;
 }
 
@@ -223,10 +223,13 @@ aside {
 .timeline>li:last-child {
     margin-bottom: 0;
 }
-
 .timeline .timeline-heading h4 {
     margin-top: 0;
     color: inherit;
+    color: #515151;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
 }
 
 .timeline .timeline-heading h4.subheading {
@@ -236,6 +239,9 @@ aside {
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
+}
+.timeline p {
+  color: #777;
 }
 
 @media(min-width:768px) {
@@ -266,7 +272,7 @@ aside {
 
 .timeline>li .timeline-image h4 {
     margin-top: 16px;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 18px;
 }
 
@@ -421,7 +427,7 @@ header .header-content .header-content-inner p {
 
 .timeline>li .timeline-image h4 {
     margin-top: 30px;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 26px;
 }
 
@@ -578,6 +584,11 @@ fieldset[disabled] .btn-default.active {
     background-color: #E40390;
 }
 
+.bg-faq {
+    background-color: #172D6B;
+    color: #fff;
+}
+
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
@@ -708,7 +719,7 @@ ul.social-buttons li a {
 }
 #plan {
     padding: 70px 0;
-    background: rgba(245, 249, 244, 0.65);
+    /*background: rgba(245, 249, 244, 0.65);*/
 }
 @media(max-width:768px) {
     .our-plan {
