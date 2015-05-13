@@ -1,0 +1,31 @@
+.row table {
+    max-width: 75%;
+    margin-bottom: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+tr:nth-child(1) > td {
+    background: rgb(29, 172, 25);
+    color: white;
+}
+.guide {
+    margin: 50px auto;
+    float: none;
+    text-align: left;
+    padding: 10px;
+}
+#traffic img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+header i:hover {
+    color: #76A12A;
+}
+header i {
+    color: #8EC232;
+    cursor: pointer;
+}
+section {
+    padding: 60px 0;
+}

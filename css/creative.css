@@ -719,7 +719,7 @@ ul.social-buttons li a {
 }
 #plan {
     padding: 70px 0;
-    /*background: rgba(245, 249, 244, 0.65);*/
+    background: rgba(245, 249, 244, 0.65);
 }
 @media(max-width:768px) {
     .our-plan {
