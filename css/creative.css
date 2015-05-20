@@ -771,3 +771,7 @@ ul.social-buttons li a {
     }
 
 }
+#register p {
+    line-height: 2;
+    padding: 20px;
+}
