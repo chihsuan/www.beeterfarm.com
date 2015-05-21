@@ -604,7 +604,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary {
     border-color: #f05f40;
     color: #fff;
-    background-color: #f05f40;
+    background-color: #f0411c;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -616,9 +616,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #ed431f;
+    border-color: #ed3812;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #dd3c1a;
 }
 
 .bg-faq {
@@ -774,4 +774,9 @@ ul.social-buttons li a {
 #register p {
     line-height: 2;
     padding: 20px;
+}
+img.camp-img.img-responsive {
+  position: absolute;
+  width: 70%;
+  padding: 5px;
 }
