@@ -770,6 +770,9 @@ ul.social-buttons li a {
         margin-top: 100px;
     }
 
+    header .header-content .header-content-inner p {
+        min-width: 85%;
+    }
 }
 #register p {
     line-height: 2;
