@@ -22,7 +22,7 @@ hr {
 }
 
 hr.light {
-    border-color: #fff;
+    border-color: #222;
 }
 
 a {
@@ -76,7 +76,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #34A040;
+    background-color: #F7F6FB;
 }
 
 .bg-dark {
@@ -85,8 +85,9 @@ p {
 }
 
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: #EF4E8D;
     text-align: left;
+
 }
 
 section {
@@ -108,6 +109,10 @@ aside {
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+}
+h2.section-heading {
+    color: #319D3E;
+    font-weight: bold;
 }
 
 .navbar-default .navbar-header .navbar-brand {
@@ -318,7 +323,7 @@ aside {
 
 .navbar-default .nav > li>a,
 .navbar-default .nav>li>a:focus {
-    color: #fff;
+    color: #222;
 }
 
 .navbar-default .nav > li>a:hover,
@@ -352,17 +357,13 @@ aside {
 }
 }
 
-.navbar-default .nav > li.active-red> a {
-    color: rgba(210, 34, 9, 0.95);
-}
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
+    min-height: 310px;
     text-align: center;
-    color: #fff;
-    background-image: url(../img/img.jpg);
-    background-position: center;
+    color: #222;
+    background-image: url(/img/join_us.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -392,7 +393,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 24px;
     font-weight: 600;
-    color: #fff;
+    color: #222;
     height: 50px;
     width: 25%;
     margin: auto;
